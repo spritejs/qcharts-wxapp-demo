@@ -1,0 +1,4 @@
+<!--pages/area/stack/stack.wxml-->
+<view>
+  <q-chart bindChartCreated="onChartCreated"></q-chart>
+</view>

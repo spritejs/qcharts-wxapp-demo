@@ -1,0 +1,4 @@
+<!--pages/line/double/double.wxml-->
+<view>
+  <q-chart id="container" bindChartCreated="onChartCreated"></q-chart>
+</view>

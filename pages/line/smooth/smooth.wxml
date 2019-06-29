@@ -1,0 +1,6 @@
+<!--pages/line/smooth/smooth.wxml-->
+<view>
+  <q-chart id="container" chartId="chart-line-default"
+    bindChartCreated="onChartCreated"
+  ></q-chart>
+</view>

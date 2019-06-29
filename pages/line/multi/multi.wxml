@@ -1,0 +1,4 @@
+<!--pages/line/multi/multi.wxml-->
+<view>
+  <q-chart bindChartCreated="onChartCreated"></q-chart>
+</view>

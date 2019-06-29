@@ -1,0 +1,6 @@
+<!--pages/line/others/others.wxml-->
+<view>
+  <q-chart bindChartCreated="onChartCreated"></q-chart>
+  <q-chart bindChartCreated="onChartCreated2"></q-chart>
+</view>
+

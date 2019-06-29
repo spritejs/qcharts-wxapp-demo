@@ -1,0 +1,25 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/line/default/default",
+    "pages/line/double/double",
+    "pages/line/smooth/smooth",
+    "pages/line/multi/multi",
+    "pages/line/others/others",
+    "pages/area/default/default",
+    "pages/area/stack/stack",
+    "pages/area/range/range",
+    "pages/area/others/others"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json",
+  "usingComponents": {
+    "q-chart": "/miniprogram_npm/@qcharts/core/chart/index"
+  }
+}

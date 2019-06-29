@@ -1,0 +1,16 @@
+{
+  "name": "miniprogram-test-2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@qcharts/core": "git+https://github.com/spritejs/q-charts.git",
+    "@spritejs/wxapp": "^1.11.3"
+  }
+}
