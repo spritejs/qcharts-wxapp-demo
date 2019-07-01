@@ -11,6 +11,6 @@
   "license": "ISC",
   "dependencies": {
     "@qcharts/core": "git+https://github.com/spritejs/q-charts.git",
-    "@spritejs/wxapp": "^1.11.3"
+    "@spritejs/wxapp": "^1.11.7"
   }
 }
