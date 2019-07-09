@@ -1,0 +1,5 @@
+<!--pages/pie/default/defaykt.wxml-->
+<view>
+  <q-chart bindChartCreated="onChartCreated"></q-chart>
+</view>
+

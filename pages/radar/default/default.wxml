@@ -1,0 +1,5 @@
+<!--pages/radar/default/default.wxml-->
+<view>
+  <q-chart bindChartCreated="onChartCreated"></q-chart>
+</view>
+

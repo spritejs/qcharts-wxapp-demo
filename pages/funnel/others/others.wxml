@@ -1,0 +1,4 @@
+<!--pages/funnel/others/others.wxml-->
+<view>
+  <q-chart bindChartCreated="onChartCreated"></q-chart>
+</view>

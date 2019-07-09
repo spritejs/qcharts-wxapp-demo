@@ -1,0 +1,11 @@
+/* pages/radar/default/default.wxss */
+page {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+view {
+  width: 100%;
+  height: 95%;
+  margin: auto;
+}

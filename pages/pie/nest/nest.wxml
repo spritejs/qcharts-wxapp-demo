@@ -1,0 +1,5 @@
+<!--pages/pie/nest/nest.wxml-->
+<view>
+  <q-chart bindChartCreated="onChartCreated"></q-chart>
+</view>
+

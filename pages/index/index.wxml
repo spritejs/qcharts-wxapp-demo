@@ -1,5 +1,5 @@
 <!--index.wxml-->
-<view class="container" catchtouchmove="noop">
+<view>
   <block wx:for="{{demos}}" wx:for-item="item" wx:key="item.url">
     <navigator url="{{item.url}}" hover-class="navigator-hover">{{item.label}}</navigator>
   </block>

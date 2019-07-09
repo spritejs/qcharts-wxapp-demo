@@ -1,0 +1,4 @@
+<!--pages/scatter/bubble2/bubble2.wxml-->
+<view>
+  <q-chart bindChartCreated="onChartCreated"></q-chart>
+</view>

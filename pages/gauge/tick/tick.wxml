@@ -1,0 +1,4 @@
+<!--pages/gauge/tick/tick.wxml-->
+<view>
+  <q-chart bindChartCreated="onChartCreated"></q-chart>
+</view>
