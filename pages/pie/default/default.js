@@ -92,7 +92,11 @@ Page({
       value: 'population'
     })
 
-    const pie = new Pie({ radius: 0.7, pos: [0, 0], size: ['80%', '100%'] })
+    const pie = new Pie({
+      radius: 0.7,
+      pos: [20, 10],
+      size: ['70%', '80%']
+    })
     pie.style('sector', { lineWidth: 1, strokeColor: '#fff' })
     pie.style('guideLine', true)
     pie.style('guideText', true)

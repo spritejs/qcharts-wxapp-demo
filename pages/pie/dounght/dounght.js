@@ -55,8 +55,8 @@ Page({
     const pie = new Pie({
       innerRadius: 0.4,
       radius: 0.7,
-      pos: [0, 0],
-      size: ['80%', '100%']
+      pos: [20, 10],
+      size: ['80%', '80%']
     })
     pie.style('sector', { lineWidth: 1, strokeColor: '#fff' })
     pie.style('guideLine', true)

@@ -36,7 +36,6 @@
     "navigationBarTitleText": "QChart",
     "navigationBarTextStyle": "black"
   },
-  "sitemapLocation": "sitemap.json",
   "usingComponents": {
     "q-chart": "/miniprogram_npm/@qcharts/core/chart/index"
   }

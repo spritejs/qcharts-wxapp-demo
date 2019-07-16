@@ -31,8 +31,8 @@ Page({
 
     const pie = new Pie({
       radius: 0.4,
-      pos: [0, 0],
-      size: ['80%', '100%']
+      pos: [5, 5],
+      size: ['80%', '80%']
     }).source(ds.selectRows(data.slice(0, 4).map(d => d.name)))
     pie.color(['#5982F6', '#59CB74', '#DA65CC', '#FC6980'])
     pie.style('text', attrs => ({ color: '#fff', text: attrs.name }))
@@ -40,8 +40,8 @@ Page({
     const pie2 = new Pie({
       innerRadius: 0.5,
       radius: 0.7,
-      pos: [0, 0],
-      size: ['80%', '100%']
+      pos: [5, 5],
+      size: ['80%', '80%']
     }).source(ds.selectRows(data.slice(4).map(d => d.name)))
     pie2.color([
       '#47A1FF',
