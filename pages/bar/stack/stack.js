@@ -94,7 +94,9 @@ Page({
     const bar = new Bar({
       stack: true,
       transpose: true,
-      barWidth: 20
+      barWidth: 20,
+      pos: ['20%', '10%'],
+      size: ['70%', '80%']
     })
     const tooltip = new Tooltip({
       formatter: d => ` ${d.type}: ${d.value}`

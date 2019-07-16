@@ -1,4 +1,4 @@
-<!--pages/line/default/default.wxml-->
+<!-- pages/line/default/default.wxml -->
 <view>
   <q-chart bindChartCreated="onChartCreated"></q-chart>
 </view>

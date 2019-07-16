@@ -1,5 +1,4 @@
-<!--pages/bar/group/group.wxml-->
+<!-- pages/bar/group/group.wxml -->
 <view>
-  <q-chart bindChartCreated="onChartCreated"></q-chart>
+  <q-chart bindChartCreated="onChartCreated" pos="{{[10,0]}}"></q-chart>
 </view>
-

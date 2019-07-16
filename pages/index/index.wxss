@@ -1,19 +1,53 @@
 /**index.wxss**/
 page {
   width: 100%;
+  height: 100%;
 }
 
-view {
-  display: block;
-  padding: 20px 0;
-  width: 100%;
-  position: absolute;
-  overflow-y: scroll;
+.index-container {
+  font-size: 16px;
+  background: #f8fafe;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
 }
-
-navigator {
-  display: block;
+.index-container .logo-container {
+  margin-bottom: 5px;
+  padding: 20px;
+  background: #fff;
+  box-shadow: 0 2px 8px rgba(229, 229, 229, 0.5);
+}
+.logo-container .logo {
   text-align: center;
-  line-height: 60rpx;
-  margin-left: 20rpx;
+}
+.logo-container .logo image {
+  width: 200rpx;
+  height: 50rpx;
+}
+.index-container .list {
+  flex: 1;
+  height: 100px;
+}
+.index-container .item-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-top: 10px;
+}
+.item-container .item {
+  text-align: center;
+  width: 140px;
+  margin-bottom: 20px;
+  padding: 5px;
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0 2px 8px rgba(229, 229, 229, 0.5);
+}
+.item-container .item image {
+  width: 130px;
+  height: 130px;
+  margin-bottom: 5px;
+}
+.scroll {
+  height: 100%;
 }

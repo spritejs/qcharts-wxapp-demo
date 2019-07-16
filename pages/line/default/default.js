@@ -13,7 +13,7 @@ Page({
       { date: '05-08', catgory: '图例一', sales: 65.2 },
     ]
 
-    const { Chart, Line, Legend, Tooltip, Axis } = qcharts
+    const { Line, Legend, Tooltip, Axis } = qcharts
 
     chart.source(data, {
       row: 'catgory',
@@ -25,7 +25,7 @@ Page({
     line.style('point', { strokeColor: '#fff' })
 
     const tooltip = new Tooltip({
-      formatter: function (data) {
+      formatter: function(data) {
         return `${data.date} ${data.sales}`
       }
     })

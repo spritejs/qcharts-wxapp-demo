@@ -1,6 +1,21 @@
-<!--index.wxml-->
-<view>
-  <block wx:for="{{demos}}" wx:for-item="item" wx:key="item.url">
-    <navigator url="{{item.url}}" hover-class="navigator-hover">{{item.label}}</navigator>
-  </block>
+<!-- index.wxml -->
+<view class="index-container" catchtouchmove="noop">
+  <view class="logo-container">
+    <view class="logo">
+      <image src="https://p2.ssl.qhimg.com/t01aec2b6fbfbb68e03.png" />
+    </view>
+    <view>QCharts 是一个基于 spritejs 封装的图表库，可以让用户以组件的形式组合出各种图表。</view>
+  </view>
+  <view class="list">
+    <scroll-view scroll-y class="scroll">
+      <view class="item-container">
+        <view class="item" wx:for="{{demos}}" wx:key='url'>
+          <navigator url="{{item.url}}">
+            <image src="{{item.img}}" mode="aspectFit" />
+            <text>{{item.label}}</text>
+          </navigator>
+        </view>
+      </view>
+    </scroll-view>
+  </view>
 </view>

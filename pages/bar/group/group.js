@@ -88,7 +88,9 @@ Page({
     })
     const bar = new Bar({
       transpose: true,
-      barWidth: 12
+      barWidth: 12,
+      pos: ['20%', '10%'],
+      size: ['70%', '80%'],
     })
     const tooltip = new Tooltip({
       formatter: d => `${d.product} - ${d.year} - ${d.sales}`

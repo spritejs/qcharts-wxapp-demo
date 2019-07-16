@@ -7,7 +7,7 @@ Component({
     chartId: {
       type: String,
       value: 'q-chart',
-    },
+    }
   },
   methods: {
     updateEventOffset(handler) {
@@ -52,7 +52,7 @@ Component({
         container: '#app',
         component: this,
         layer: this.data.chartId,
-        size: [rect.width, rect.height],
+        size: [rect.width, rect.height]
       });
       this.chart = chart;
       this.scene = chart.layer.parent;
