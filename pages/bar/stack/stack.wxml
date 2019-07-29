@@ -1,4 +1,1 @@
-<!-- pages/bar/stack/stack.wxml -->
-<view>
-  <q-chart bindChartCreated="onChartCreated" pos="{{[10,0]}}"></q-chart>
-</view>
+<q-chart bindChartCreated="onChartCreated" chart-class='qchart'></q-chart>

@@ -1,13 +1,14 @@
-/* pages/bar/others/others.wxss */
 page {
   width: 100%;
   height: 100%;
+  display: flex;
 }
-view {
+q-chart {
   width: 100%;
   height: 100%;
 }
-q-chart {
-  display: block;
-  height: 50%;
+.qchart {
+  width: 100%;
+  height: 95%;
+  margin: auto;
 }

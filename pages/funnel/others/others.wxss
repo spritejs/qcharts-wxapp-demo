@@ -1,11 +1,14 @@
-/* pages/funnel/others/others.wxss */
 page {
   width: 100%;
   height: 100%;
   display: flex;
 }
-view {
+q-chart {
   width: 100%;
+  height: 100%;
+}
+.qchart {
+  width: 70%;
   height: 95%;
   margin: auto;
 }

@@ -1,5 +1,1 @@
-<!--pages/scatter/bubble/bubble.wxml-->
-<view>
-  <q-chart bindChartCreated="onChartCreated"></q-chart>
-</view>
-
+<q-chart bindChartCreated="onChartCreated" chart-class='qchart'></q-chart>

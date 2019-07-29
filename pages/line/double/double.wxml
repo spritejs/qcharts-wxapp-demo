@@ -1,4 +1,1 @@
-<!--pages/line/double/double.wxml-->
-<view>
-  <q-chart id="container" bindChartCreated="onChartCreated"></q-chart>
-</view>
+<q-chart bindChartCreated="onChartCreated" chart-class='qchart'></q-chart>
